@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+}
+
+img{
+    transition: transform 0.2s;
+    margin-left: 10px;
+}
+img:hover{
+    transform: scale(0.9);
+}
+#games{
+    background-color: lightcoral;
+    height: 400px;
+}
+#app{
+    background-color: aqua;
+    width: 100%;
+}
+h1{
+    font-size: 40px;
+}
+
+#games img{
+    margin-top: 35px;
+    height: 325px;
+}
+
+.carousel-inner p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+}
